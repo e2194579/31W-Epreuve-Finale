@@ -30,7 +30,7 @@
          echo "<p class='annonce__duree'>La durée: " . $duree . "</p>";
          echo "<p class='annonce__heure'>Le heure: " . $heure . "</p>";
          echo "<p class='annonce__hs'>Nombre d'heure par séance: " . $hs . "</p>";
-         echo "<p class='annonce__niveau'>Nombre d'heure par séance: " . $niveau . "</p>"; 
+         echo "<p class='annonce__niveau'>Difficulté de l'atelier: " . $niveau . "</p>"; 
          echo "<p class='annonce__lieu'>Le lieu: " . $lieu . "</p>";
          echo "<p class='annonce__prix'>Prix: " . $prix . "</p>";
 
