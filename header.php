@@ -36,13 +36,7 @@
 
 
         <section class="site__sidebar">
-            <h2>Atelier</h2>
-            <?php wp_nav_menu(array(
-                        'menu' => 'Sidebar3',
-                        'container' => 'nav',
-                        'container_class' => 'menu__sidebar menu__atelier',
-                        'menu_class' => 'menu__sidebar__ul'
-            )) ?>
+       
             <h2>Département TIM</h2>
             <?php wp_nav_menu(array(
                         'menu' => 'Sidebar',
