@@ -36,9 +36,23 @@
 
 
         <section class="site__sidebar">
-            <h2>Sidebar</h2>
+            <h2>Atelier</h2>
+            <?php wp_nav_menu(array(
+                        'menu' => 'Sidebar3',
+                        'container' => 'nav',
+                        'container_class' => 'menu__sidebar menu__atelier',
+                        'menu_class' => 'menu__sidebar__ul'
+            )) ?>
+            <h2>Département TIM</h2>
             <?php wp_nav_menu(array(
                         'menu' => 'Sidebar',
+                        'container' => 'nav',
+                        'container_class' => 'menu__sidebar',
+                        'menu_class' => 'menu__sidebar__ul'
+            )) ?>
+            <h2>Événement</h2>
+            <?php wp_nav_menu(array(
+                        'menu' => 'Sidebar2',
                         'container' => 'nav',
                         'container_class' => 'menu__sidebar',
                         'menu_class' => 'menu__sidebar__ul'

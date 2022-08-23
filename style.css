@@ -1,15 +1,15 @@
 @charset "UTF-8";
 /*! 
-Theme Name: 31W-cours 
-Author: Eddy Martin
-Author URI: http://github.com/eddytuto
-Description: Thème de base pour le cours de 31W
+Theme Name: 31W-TP2 
+Author: RBC
+Author URI: https://github.com/e2194579
+Description: Thème 31W TP2
 Version: 1.0.0
 Tested up to: 5.4
 Requires PHP: 5.4
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: 31-w
+Text Domain: 31W
 */
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
@@ -55,6 +55,13 @@ Text Domain: 31-w
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
+.menu__atelier li{
+  background-color: pink;
+  border-radius: 15px;
+  padding: 15px;
+}
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
