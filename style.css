@@ -55,11 +55,22 @@ Text Domain: 31W
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-
+.menu__sidebar__ul .menu-item-252{
+background-image: linear-gradient(to bottom right, pink, pink, purple);
+}
+.menu__sidebar__ul .menu-item-256{
+background-image: linear-gradient(to bottom right, rgb(255, 235, 192), rgb(255, 220, 192), rgb(128, 51, 0));
+}
+.menu__sidebar__ul .menu-item-260{
+background-image: linear-gradient(to bottom right, rgb(230, 231, 255), rgb(140, 133, 241), rgb(33, 64, 240));
+}
+.menu__sidebar__ul .menu-item-265{
+background-image: linear-gradient(to bottom right, rgb(237, 255, 233), rgb(126, 255, 115), rgb(53, 255, 13));
+}
 
 
 .menu__atelier li{
-    background-image: linear-gradient(to bottom right, pink, pink, purple);
+    
     border-radius: 15px;
     padding: 15px;
     list-style: none;
