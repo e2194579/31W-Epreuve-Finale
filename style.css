@@ -68,6 +68,11 @@ background-image: linear-gradient(to bottom right, rgb(230, 231, 255), rgb(140, 
 background-image: linear-gradient(to bottom right, rgb(237, 255, 233), rgb(126, 255, 115), rgb(53, 255, 13));
 }
 
+#menu-sidebar3{
+  display: flex;
+  gap: 10px;
+  
+}
 
 .menu__atelier li{
     
