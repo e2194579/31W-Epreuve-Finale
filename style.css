@@ -56,11 +56,17 @@ Text Domain: 31W
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+
+
 .menu__atelier li{
-  background-color: pink;
-  border-radius: 15px;
-  padding: 15px;
+    background-image: linear-gradient(to bottom right, pink, pink, purple);
+    border-radius: 15px;
+    padding: 15px;
+    list-style: none;
+    max-width: 32%;
+    min-height: 200px;
 }
+
 
 html {
   line-height: 1.15;
