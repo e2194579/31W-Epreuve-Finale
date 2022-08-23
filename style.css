@@ -71,7 +71,7 @@ background-image: linear-gradient(to bottom right, rgb(237, 255, 233), rgb(126, 
 #menu-sidebar3{
   display: flex;
   gap: 10px;
-  
+   flex-wrap: wrap;
 }
 
 .menu__atelier li{
@@ -79,8 +79,9 @@ background-image: linear-gradient(to bottom right, rgb(237, 255, 233), rgb(126, 
     border-radius: 15px;
     padding: 15px;
     list-style: none;
-    max-width: 32%;
+    min-width: 49%;
     min-height: 200px;
+   
 }
 
 
